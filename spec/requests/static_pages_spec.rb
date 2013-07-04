@@ -13,7 +13,6 @@ describe "Static pages" do
   end
 
   describe "Help page" do
-
     before { visit help_path }
 
     it { should have_content('Help') }
